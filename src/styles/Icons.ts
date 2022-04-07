@@ -4,9 +4,10 @@ export {
   Email,
   FavoriteBorder,
   ExitToApp,
-  LocationOn,
   Search,
 } from "styled-icons/material-outlined";
-export { Person, Cake, Favorite } from "styled-icons/material";
+export { Person, Favorite } from "styled-icons/material";
 export { ArrowLeft } from "styled-icons/heroicons-solid";
-export { Chat } from "styled-icons/heroicons-outline";
+export { Chat, Link } from "styled-icons/heroicons-outline";
+export { Location } from "styled-icons/fluentui-system-regular";
+export { Calendar3 } from "styled-icons/bootstrap/";
