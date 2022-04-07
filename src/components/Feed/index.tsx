@@ -12,8 +12,12 @@ const Feed: React.FC = () => {
           <BackIcon />
         </button>
 
+        <ProfileInfo username="Filipe Dias" tweetsCount={654} />
       </Header>
 
+      {/* <ProfilePage /> */}
+
+      <BottomMenu />
     </Container>
   );
 };
