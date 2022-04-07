@@ -1,7 +1,7 @@
 import React from "react";
 
 import BottomMenu from "../BottomMenu";
-import ProfileInfo from "../ProfileInfo";
+import HeaderInfo from "../HeaderInfo";
 import { BackIcon, Container, Header } from "./styles";
 
 const Feed: React.FC = () => {
@@ -12,7 +12,7 @@ const Feed: React.FC = () => {
           <BackIcon />
         </button>
 
-        <ProfileInfo username="Filipe Dias" tweetsCount={654} />
+        <HeaderInfo name="Filipe Dias" tweetsCount={654} />
       </Header>
 
       {/* <ProfilePage /> */}

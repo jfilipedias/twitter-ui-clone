@@ -3,14 +3,14 @@ import React from "react";
 import { Container } from "./styles";
 
 interface Props {
-  username: string;
+  name: string;
   tweetsCount: number;
 }
 
-const ProfileInfo: React.FC<Props> = ({ username, tweetsCount }) => {
+const ProfileInfo: React.FC<Props> = ({ name, tweetsCount }) => {
   return (
     <Container>
-      <strong>{username}</strong>
+      <strong>{name}</strong>
       <span>{`${tweetsCount} Tweets`}</span>
     </Container>
   );
