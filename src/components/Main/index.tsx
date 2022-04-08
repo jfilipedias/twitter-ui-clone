@@ -1,6 +1,7 @@
 import React from "react";
 
 import BottomMenu from "../BottomMenu";
+import Feed from "../Feed";
 import HeaderInfo from "../HeaderInfo";
 import Profile from "../Profile";
 import { BackIcon, Container, Header } from "./styles";
@@ -17,6 +18,8 @@ const Main: React.FC = () => {
       </Header>
 
       <Profile />
+
+      <Feed />
 
       <BottomMenu />
     </Container>
