@@ -29,15 +29,19 @@ export default createGlobalStyle`
 
   :root {
     --primary: #000;
+    --primary-blur: rgba(0, 0, 0, 0.65);
     --secondary: #15181C;
     --search: #202327;
     --white: #eff3f4;
     --gray: #7A7A7A;
     --outline: #2F3336;
+    --outline-button: #536471;
     --retweet: #00C06B;
     --like: #E8265E;
-    --twitter: #33A1F2;
-    --twitter-dark-hover: #181919;
-    --twitter-light-hover: #2C8ED6;
+    --twitter: #1c9cf3;
+    --twitter-hover: #1c8dd0;
+    --twitter-outline: #8ecdf8;
+    --dark-hover: #181919;
+    --light-hover: #d7dbdc;
   }
 `;
