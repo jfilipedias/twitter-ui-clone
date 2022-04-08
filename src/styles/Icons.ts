@@ -6,8 +6,11 @@ export {
   ExitToApp,
   Search,
 } from "styled-icons/material-outlined";
+export {
+  Chat,
+  LocationMarker as Location,
+  Link,
+} from "styled-icons/heroicons-outline";
+export { Calendar3 as Calendar } from "styled-icons/bootstrap/";
 export { Person, Favorite } from "styled-icons/material";
 export { ArrowLeft } from "styled-icons/heroicons-solid";
-export { Chat, Link } from "styled-icons/heroicons-outline";
-export { Location } from "styled-icons/fluentui-system-regular";
-export { Calendar3 } from "styled-icons/bootstrap/";
