@@ -40,6 +40,7 @@ export default createGlobalStyle`
     --like: #E8265E;
     --twitter: #1c9cf3;
     --twitter-hover: #1c8dd0;
+    --tweet-hover: #080808;
     --twitter-outline: #8ecdf8;
     --dark-hover: #181919;
     --light-hover: #d7dbdc;
