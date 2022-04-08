@@ -5,7 +5,7 @@ import HeaderInfo from "../HeaderInfo";
 import Profile from "../Profile";
 import { BackIcon, Container, Header } from "./styles";
 
-const Feed: React.FC = () => {
+const Main: React.FC = () => {
   return (
     <Container>
       <Header>
@@ -23,4 +23,4 @@ const Feed: React.FC = () => {
   );
 };
 
-export default Feed;
+export default Main;

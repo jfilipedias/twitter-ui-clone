@@ -25,15 +25,17 @@ export const Header = styled.div`
   z-index: 2;
   position: sticky;
   top: 0;
-  background: var(--primary);
+
+  background: var(--primary-blur);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 
   display: flex;
   align-items: center;
 
   text-align: left;
 
-  padding: 8px 0 9px 13px;
-  border-bottom: 1px solid var(--outline);
+  padding: 6px 0 6px 13px;
 
   > button {
     padding: 10px;
@@ -47,7 +49,7 @@ export const Header = styled.div`
 
     &:hover,
     &:focus {
-      background-color: var(--twitter-dark-hover);
+      background-color: var(--dark-hover);
     }
 
     &:focus {
