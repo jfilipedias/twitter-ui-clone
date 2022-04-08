@@ -14,10 +14,15 @@ export const Tab = styled.div`
   color: var(--gray);
   text-align: center;
 
+  background-color: transparent;
+
   cursor: pointer;
 
+  transition: background-color 0.2s ease;
+
   &:hover {
-    background: var(--dark-hover);
+    background-color: var(--dark-hover);
+    border-bottom: 1px solid var(--dark-hover);
   }
 `;
 
@@ -35,4 +40,10 @@ export const Tabs = styled.div`
 
     border-bottom: 2px solid var(--twitter);
   }
+`;
+
+export const Tweets = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 `;

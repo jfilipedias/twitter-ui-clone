@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Container, Tab, Tabs } from "./styles";
+import Tweet from "../Tweet";
+import { Container, Tab, Tabs, Tweets } from "./styles";
 
 const Feed: React.FC = () => {
   return (
@@ -12,13 +13,13 @@ const Feed: React.FC = () => {
         <Tab>Likes</Tab>
       </Tabs>
 
-      {/* <Tweets>
+      <Tweets>
+        <Tweet pinned />
+        <Tweet retweeted />
         <Tweet />
+        <Tweet retweeted />
         <Tweet />
-        <Tweet />
-        <Tweet />
-        <Tweet />
-      </Tweets> */}
+      </Tweets>
     </Container>
   );
 };
