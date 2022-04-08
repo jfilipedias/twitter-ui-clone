@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
 
   > span {
-    font-size: 15px;
+    font-size: 13px;
     color: var(--gray);
   }
 `;

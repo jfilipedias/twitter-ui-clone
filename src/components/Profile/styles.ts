@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 
 import { Calendar, Link, Location } from "../../styles/Icons";
+import { Button } from "../Button";
 
 const icon = css`
   width: 18px;
@@ -29,7 +30,7 @@ export const Banner = styled.div`
   width: 100%;
   height: min(33vw, 199px);
 
-  background: var(--twitter);
+  background: var(--search);
 
   position: relative;
 `;
@@ -51,6 +52,31 @@ export const Container = styled.div`
   scrollbar-width: none;
   ::-webkit-scrollbar {
     display: none;
+  }
+
+  a {
+    color: var(--twitter);
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+`;
+
+export const EditButton = styled(Button)`
+  position: absolute;
+  top: 2vw;
+  right: 7px;
+
+  padding: 4px 16px;
+  font-size: 13px;
+
+  @media (min-width: 320px) {
+    top: 10px;
+    padding: 8px 19px;
+    font-size: 15px;
   }
 `;
 
@@ -102,15 +128,6 @@ export const ProfileData = styled.div`
   > p {
     font-size: 15px;
     margin-top: 12px;
-
-    > a {
-      text-decoration: none;
-      color: var(--twitter);
-    }
-
-    > a:hover {
-      text-decoration: underline;
-    }
   }
 
   > ul {
@@ -130,16 +147,6 @@ export const ProfileData = styled.div`
 
       & + li {
         margin-left: 15px;
-      }
-
-      > a {
-        color: var(--twitter);
-        text-decoration: none;
-        font-size: 15px;
-      }
-
-      > a:hover {
-        text-decoration: underline;
       }
 
       > svg {
