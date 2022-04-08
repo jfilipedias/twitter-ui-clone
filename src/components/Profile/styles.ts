@@ -68,7 +68,7 @@ export const Container = styled.div`
 export const EditButton = styled(Button)`
   position: absolute;
   top: 2vw;
-  right: 7px;
+  right: 15px;
 
   padding: 4px 16px;
   font-size: 13px;
@@ -82,6 +82,7 @@ export const EditButton = styled(Button)`
 
 export const Followage = styled.div`
   display: flex;
+  margin-top: 15px;
 
   > span {
     font-size: 15px;
@@ -133,7 +134,6 @@ export const ProfileData = styled.div`
   > ul {
     list-style: none;
     margin-top: 10px;
-    margin-bottom: 10px;
 
     display: flex;
     align-items: center;
