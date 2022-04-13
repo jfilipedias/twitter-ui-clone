@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  Action,
   Actions,
   Avatar,
   Body,
@@ -14,7 +15,6 @@ import {
   HeartIcon,
   MediaContent,
   PinIcon,
-  Status,
   RetweetIcon,
 } from "./styles";
 
@@ -56,18 +56,18 @@ const Tweet: React.FC<Props> = ({ retweeted, pinned }) => {
           <MediaContent />
 
           <Actions>
-            <Status>
+            <Action color="twitter">
               <CommentIcon />
               18
-            </Status>
-            <Status>
+            </Action>
+            <Action color="retweet">
               <RetweetIcon />
               18
-            </Status>
-            <Status>
+            </Action>
+            <Action color="like">
               <HeartIcon />
               18
-            </Status>
+            </Action>
           </Actions>
         </Content>
       </Body>
