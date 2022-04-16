@@ -12,7 +12,11 @@ import {
   BookmarkIcon,
   ProfileIcon,
   DotsIcon,
-  Button,
+  StyledButton,
+  BottomSide,
+  Avatar,
+  ProfileData,
+  OptionsIcon,
 } from "./styles";
 
 const MenuBar: React.FC = () => {
@@ -46,7 +50,7 @@ const MenuBar: React.FC = () => {
           <span>Bookmarks</span>
         </MenuButton>
 
-        <MenuButton>
+        <MenuButton className="active">
           <ProfileIcon />
           <span>Profile</span>
         </MenuButton>
@@ -56,10 +60,21 @@ const MenuBar: React.FC = () => {
           <span>More</span>
         </MenuButton>
 
-        <Button>
+        <StyledButton>
           <span>Tweet</span>
-        </Button>
+        </StyledButton>
       </TopSide>
+
+      <BottomSide>
+        <Avatar />
+
+        <ProfileData>
+          <strong>Filipe Dias</strong>
+          <span>@filipe_dias</span>
+        </ProfileData>
+
+        <OptionsIcon />
+      </BottomSide>
     </Container>
   );
 };
