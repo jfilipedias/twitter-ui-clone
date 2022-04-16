@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { Email, Home, Notifications, Search } from "../../styles/Icons";
+import { Mail, Home, Bell, Search } from "../../styles/Icons";
 
 const iconsCSS = css`
   width: 30px;
@@ -18,7 +18,7 @@ const iconsCSS = css`
   }
 `;
 
-export const BellIcon = styled(Notifications)`
+export const BellIcon = styled(Bell)`
   ${iconsCSS}
 `;
 
@@ -41,7 +41,7 @@ export const Container = styled.div`
   }
 `;
 
-export const EmailIcon = styled(Email)`
+export const EmailIcon = styled(Mail)`
   ${iconsCSS}
 `;
 

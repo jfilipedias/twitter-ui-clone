@@ -1,15 +1,18 @@
 export {
   Home,
-  Notifications,
-  Email,
-  FavoriteBorder,
-  ExitToApp,
+  Hashtag,
+  Bell,
+  Mail,
+  Bookmark,
+  User,
+  DotsCircleHorizontal as Dots,
   Search,
-} from "styled-icons/material-outlined";
+} from "styled-icons/heroicons-outline";
 export {
   LocationMarker as Location,
   Link,
 } from "styled-icons/heroicons-outline";
+export { ExitToApp } from "styled-icons/material-outlined";
 export { ChatRight as Chat, Heart } from "styled-icons/bootstrap";
 export { Calendar3 as Calendar } from "styled-icons/bootstrap/";
 export { Person, Favorite } from "styled-icons/material";
