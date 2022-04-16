@@ -10,12 +10,7 @@ const iconsCSS = css`
 
   cursor: pointer;
 
-  fill: var(--white);
-
-  &:hover,
-  &.active {
-    fill: var(--twitter);
-  }
+  stroke: var(--white);
 `;
 
 export const BellIcon = styled(Bell)`
