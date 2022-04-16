@@ -7,6 +7,7 @@ export {
   User,
   DotsCircleHorizontal as Dots,
   Search,
+  DotsHorizontal,
 } from "styled-icons/heroicons-outline";
 export {
   LocationMarker as Location,
