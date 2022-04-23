@@ -67,6 +67,7 @@ export const SearchIcon = styled(Search)`
 export const Body = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: min(399px, 100%);
 
   padding: 57px 24px 200px;
   margin-top: 4px;
