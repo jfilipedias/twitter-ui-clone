@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Item, Title } from "./styles";
+import { Container, Item, Title, ShowMore } from "./styles";
 
 interface Props {
   title: string;
@@ -18,6 +18,10 @@ const SideList: React.FC<Props> = ({ title, children }) => {
         // eslint-disable-next-line react/no-array-index-key
         <Item key={index}>{child}</Item>
       ))}
+
+      <Item>
+        <ShowMore>Show More</ShowMore>
+      </Item>
     </Container>
   );
 };

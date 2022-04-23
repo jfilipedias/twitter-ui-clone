@@ -30,3 +30,10 @@ export const Title = styled.span`
   font-weight: bold;
   font-size: 19px;
 `;
+
+export const ShowMore = styled.span`
+  padding: 10px 0;
+  color: var(--twitter);
+  font-size: 14px;
+  cursor: pointer;
+`;
