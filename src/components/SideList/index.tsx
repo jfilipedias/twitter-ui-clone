@@ -4,19 +4,19 @@ import { Container, Item, Title } from "./styles";
 
 interface Props {
   title: string;
-  elements: React.ReactNode[];
+  children: React.ReactNode[];
 }
 
-const SideList: React.FC<Props> = ({ title, elements }) => {
+const SideList: React.FC<Props> = ({ title, children }) => {
   return (
     <Container>
       <Item>
         <Title>{title}</Title>
       </Item>
 
-      {elements.map((element, index) => (
+      {children.map((child, index) => (
         // eslint-disable-next-line react/no-array-index-key
-        <Item key={index}>{element}</Item>
+        <Item key={index}>{child}</Item>
       ))}
     </Container>
   );

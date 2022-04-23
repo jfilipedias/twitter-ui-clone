@@ -5,13 +5,16 @@ export const Container = styled.div`
   flex-direction: column;
   background: var(--secondary);
   border-radius: 14px;
+  overflow: hidden;
 `;
 
 export const Item = styled.div`
   padding: 10px 16px;
 
-  & + div {
-    border-top: 1px solid var(--outline);
+  transition: background-color 0.2s ease;
+
+  & + div:hover {
+    background-color: var(--search);
   }
 
   &:first-child {

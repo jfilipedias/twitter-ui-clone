@@ -1,5 +1,6 @@
 import React from "react";
 
+import SideList from "../SideList";
 import {
   Container,
   SearchWrapper,
@@ -17,7 +18,17 @@ const SideBar: React.FC = () => {
       </SearchWrapper>
 
       <Body>
-        <p>{"Lorem ipsum dolor sit amend.".repeat(90)}</p>
+        <SideList title="What's happening">
+          <h1>Test</h1>
+          <h1>Test</h1>
+          <h1>Test</h1>
+        </SideList>
+
+        <SideList title="What's happening">
+          <h1>Test</h1>
+          <h1>Test</h1>
+          <h1>Test</h1>
+        </SideList>
       </Body>
     </Container>
   );
