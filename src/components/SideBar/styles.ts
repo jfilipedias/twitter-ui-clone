@@ -14,9 +14,9 @@ export const Container = styled.div`
 `;
 
 export const SearchWrapper = styled.div`
-  padding: 10px 24px;
+  padding: 5px 24px;
   width: min(399px, 100%);
-  max-height: 57px;
+  max-height: 56px;
 
   position: fixed;
   top: 0;
@@ -26,21 +26,22 @@ export const SearchWrapper = styled.div`
 
 export const SearchInput = styled.input`
   width: 100%;
-  height: 39px;
+  height: 44px;
   padding: 0 10px 0 52px;
-  border-radius: 20px;
+  border-radius: 22px;
 
   background: var(--search);
 
   font-size: 14px;
 
   &::placeholder {
+    font-size: 16px;
     color: var(--gray);
   }
 
   ~ svg {
     position: relative;
-    top: -33px;
+    top: -35px;
     left: 15px;
     z-index: 1;
 
@@ -57,8 +58,8 @@ export const SearchInput = styled.input`
 `;
 
 export const SearchIcon = styled(Search)`
-  width: 27px;
-  height: 27px;
+  width: 20px;
+  height: 20px;
 
   stroke: var(--gray);
 `;

@@ -14,7 +14,7 @@ const SideBar: React.FC = () => {
   return (
     <Container>
       <SearchWrapper>
-        <SearchInput placeholder="Search on twitter." />
+        <SearchInput placeholder="Search Twitter" />
         <SearchIcon />
       </SearchWrapper>
 
