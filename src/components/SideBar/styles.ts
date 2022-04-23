@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const SearchWrapper = styled.div`
   padding: 10px 24px;
-  width: min(399px, 100px);
+  width: min(399px, 100%);
   max-height: 57px;
 
   position: fixed;
