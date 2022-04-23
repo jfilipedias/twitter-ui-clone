@@ -1,5 +1,6 @@
 import React from "react";
 
+import FollowSuggestion from "../FollowSuggestion";
 import SideList from "../SideList";
 import {
   Container,
@@ -18,10 +19,10 @@ const SideBar: React.FC = () => {
       </SearchWrapper>
 
       <Body>
-        <SideList title="What's happening">
-          <h1>Test</h1>
-          <h1>Test</h1>
-          <h1>Test</h1>
+        <SideList title="You might like">
+          <FollowSuggestion name="Twitter" nickname="@Twitter" />
+          <FollowSuggestion name="Filipe Dias" nickname="@jfiliped" />
+          <FollowSuggestion name="Github" nickname="@github" />
         </SideList>
 
         <SideList title="What's happening">
