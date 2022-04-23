@@ -1,4 +1,5 @@
 import React from "react";
+import StickyBox from "react-sticky-box";
 
 import FollowSuggestion from "../FollowSuggestion";
 import News from "../News";
@@ -19,39 +20,41 @@ const SideBar: React.FC = () => {
         <SearchIcon />
       </SearchWrapper>
 
-      <Body>
-        <SideList title="You might like">
-          <FollowSuggestion name="Twitter" nickname="@Twitter" />
-          <FollowSuggestion name="Filipe Dias" nickname="@jfiliped" />
-          <FollowSuggestion name="Github" nickname="@github" />
-        </SideList>
+      <StickyBox>
+        <Body>
+          <SideList title="You might like">
+            <FollowSuggestion name="Twitter" nickname="@Twitter" />
+            <FollowSuggestion name="Filipe Dias" nickname="@jfiliped" />
+            <FollowSuggestion name="Github" nickname="@github" />
+          </SideList>
 
-        <SideList title="What's happening">
-          <News subject="Programming" content="The plan for React 18" />
-          <News
-            subject="Gaming"
-            content="11 Things Every New Nintendo Switch Owner Should Try Or Consider"
-          />
-          <News subject="Programming" content="Highlights from Git 2.36" />
-          <News
-            subject="Gaming"
-            content="Five Video Games To Vibe With While Stoned"
-          />
-        </SideList>
+          <SideList title="What's happening">
+            <News subject="Programming" content="The plan for React 18" />
+            <News
+              subject="Gaming"
+              content="11 Things Every New Nintendo Switch Owner Should Try Or Consider"
+            />
+            <News subject="Programming" content="Highlights from Git 2.36" />
+            <News
+              subject="Gaming"
+              content="Five Video Games To Vibe With While Stoned"
+            />
+          </SideList>
 
-        <SideList title="What's happening">
-          <News subject="Programming" content="The plan for React 18" />
-          <News
-            subject="Gaming"
-            content="11 Things Every New Nintendo Switch Owner Should Try Or Consider"
-          />
-          <News subject="Programming" content="Highlights from Git 2.36" />
-          <News
-            subject="Gaming"
-            content="Five Video Games To Vibe With While Stoned"
-          />
-        </SideList>
-      </Body>
+          <SideList title="What's happening">
+            <News subject="Programming" content="The plan for React 18" />
+            <News
+              subject="Gaming"
+              content="11 Things Every New Nintendo Switch Owner Should Try Or Consider"
+            />
+            <News subject="Programming" content="Highlights from Git 2.36" />
+            <News
+              subject="Gaming"
+              content="Five Video Games To Vibe With While Stoned"
+            />
+          </SideList>
+        </Body>
+      </StickyBox>
     </Container>
   );
 };
