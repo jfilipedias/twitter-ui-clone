@@ -192,7 +192,7 @@ export const BottomSide = styled.button`
   padding: 10px;
 
   @media (min-width: 1280px) {
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 100%;
 
     transition: background-color 0.2s ease, outline 0.2s ease;
@@ -206,6 +206,11 @@ export const BottomSide = styled.button`
       outline: 2px solid var(--white);
     }
   }
+`;
+
+export const ProfileInfo = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 export const Avatar = styled.div`
@@ -243,7 +248,6 @@ export const OptionsIcon = styled(DotsHorizontal)`
 
     width: 25px;
     height: 25px;
-    margin-left: 60px;
 
     color: var(--white);
   }

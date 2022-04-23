@@ -14,6 +14,7 @@ import {
   DotsIcon,
   StyledButton,
   BottomSide,
+  ProfileInfo,
   Avatar,
   ProfileData,
   OptionsIcon,
@@ -66,12 +67,14 @@ const MenuBar: React.FC = () => {
       </TopSide>
 
       <BottomSide>
-        <Avatar />
+        <ProfileInfo>
+          <Avatar />
 
-        <ProfileData>
-          <strong>Filipe Dias</strong>
-          <span>@filipe_dias</span>
-        </ProfileData>
+          <ProfileData>
+            <strong>Filipe Dias</strong>
+            <span>@filipe_dias</span>
+          </ProfileData>
+        </ProfileInfo>
 
         <OptionsIcon />
       </BottomSide>
