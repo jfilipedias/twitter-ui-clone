@@ -46,7 +46,7 @@ const Tweet: React.FC<Props> = ({ retweeted, pinned }) => {
         <Content>
           <Header>
             <strong>Filipe Dias</strong>
-            <span>@filipe_dias</span>
+            <span>@jfiliped</span>
             <Dot />
             <time>27 de jun</time>
           </Header>

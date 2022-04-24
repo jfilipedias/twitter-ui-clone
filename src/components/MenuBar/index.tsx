@@ -72,7 +72,7 @@ const MenuBar: React.FC = () => {
 
           <ProfileData>
             <strong>Filipe Dias</strong>
-            <span>@filipe_dias</span>
+            <span>@jfiliped</span>
           </ProfileData>
         </ProfileInfo>
 
